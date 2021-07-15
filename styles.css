@@ -9,12 +9,12 @@ body {
 .topnav {
   padding-left: 200px;
   overflow: hidden;
-  width: 70%;
-  top: 0;
-  list-style: none;
+  //width: 70%;
+  //top: 0;
+  //list-style: none;
   background-color: white;
-  min-width: 100%;
-  z-index: 1;
+  //min-width: 100%;
+  //z-index: 1;
 }
 ul.topnav li {
   float: left;
