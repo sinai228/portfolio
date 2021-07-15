@@ -61,17 +61,19 @@ footer {
 
 .padding-64 {
   padding-top:64px!important;
-  padding-bottom:64px!important
+  padding-bottom:64px!important;
 }
 
 .center 
-{text-align:center!important}
+{text-align:center!important;}
 
-.black, hover-black:hover
-{color:#fff!important;background-color:#000!important}
+.black, hover-black:hover {
+  color:#fff!important;
+  background-color:#000!important;
+}
 
 .xlarge 
-{font-size:24px!important}
+{font-size:24px!important;}
 
 
 @media screen and (max-width: 600px) {
