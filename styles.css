@@ -20,6 +20,12 @@ body {
 
 .light-gray,.hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important;}
 
+h1,h2,h3,h4,h5,h6,.slim,.wide{font-family:"Segoe UI",Arial,sans-serif;}
+
+.opacity,.hover-opacity:hover{opacity:0.60;-webkit-backface-visibility:hidden;}
+
+.justify{text-align:justify!important;}
+
 .bar {
   width:100%;overflow:hidden;
 }
