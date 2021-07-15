@@ -1,0 +1,59 @@
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ul class="topnav">
+  <li><a routerLink="/about">About</a></li>
+  <li><a routerLink="/portfolio">Portfolio</a></li>
+  <li><a routerLink="/resume">Resume</a></li>
+  <li><a routerLink="/contact">Contact</a></li>
+</ul>
+<div id="page-container">
+  <div id="content-wrap">
+    <router-outlet></router-outlet>
+  </div>
+  <footer class="text-center text-white" style="background-color:#ffffff;">
+    <!-- Grid container -->
+    <div class="container p-4">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+
+        <a class="fa btn btn-link btn-floating btn-lg text-dark"
+          href="https://www.facebook.com/sinai.park.94/"
+          role="button" data-mdb-ripple-color="dark"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <a class="fa btn btn-link btn-floating btn-lg text-dark"
+          style="font-size: 13px;" href="https://vsco.co/sinai0228/gallery"
+          role="button" data-mdb-ripple-color="dark"><i
+            class="fal fa-camera"></i></a>
+
+        <!-- Instagram -->
+        <a class="fa btn btn-link btn-floating btn-lg text-dark"
+          href="https://www.pinterest.com/pnplove/_saved/"
+          role="button" data-mdb-ripple-color="dark"><i
+            class="fab fa-pinterest"></i></a>
+
+        <!-- Linkedin -->
+        <a class="fa btn btn-link btn-floating btn-lg text-dark"
+          href="https://www.linkedin.com/in/sinai-park-755b72173/"
+          role="button" data-mdb-ripple-color="dark"><i class="fab
+            fa-linkedin"></i>
+        </a>
+        <!-- Github -->
+        <a class="fa btn btn-link btn-floating btn-lg text-dark"
+          href="https://github.com/sinai228"
+          role="button" data-mdb-ripple-color="dark"><i
+            class="fab fa-github"></i>
+        </a>
+      </section>
+
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
+        0.283);
+        width: 100%; font-size: 9px;">
+        © 2020 Copyright:
+        <a class="text-dark">Sinai Park, UI/UX and Frontend Developer</a>
+      </div>
+      <!-- Copyright -->
+    </div>
+  </footer>
+</div>
