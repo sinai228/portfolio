@@ -9,7 +9,6 @@ body {
 .topnav {
   padding-left: 200px;
   overflow: hidden;
-  position: fixed;
   width: 70%;
   top: 0;
   list-style: none;
