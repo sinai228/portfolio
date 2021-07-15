@@ -49,14 +49,11 @@ ul.topnav li.right {
 }
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: black;
-  color: white;
+  display: block;
 }
 
 .container {
-  padding:0.01em 16px
+  padding:0.01em 16px;
 }
 
 .padding-64 {
@@ -68,7 +65,7 @@ footer {
 {text-align:center!important;}
 
 .black, hover-black:hover {
-  color:#fff00f!important;
+  color:#fff!important;
   background-color:#000!important;
 }
 
