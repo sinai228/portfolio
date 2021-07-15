@@ -7,6 +7,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  padding:0.01em 16px;
+}
+
+.center 
+{text-align:center!important;}
+
+.content{max-width:980px;margin:auto;}
+
+.row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{padding:0 8px;}
+
+.light-gray,.hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important;}
+
 .bar {
   width:100%;overflow:hidden;
 }
@@ -53,17 +66,11 @@ footer {
   display: block;
 }
 
-.container {
-  padding:0.01em 16px;
-}
-
 .padding-64 {
   padding-top:64px!important;
   padding-bottom:64px!important;
 }
 
-.center 
-{text-align:center!important;}
 
 .black, hover-black:hover {
   color:#fff!important;
