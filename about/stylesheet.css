@@ -1,0 +1,43 @@
+* {
+  // border: 1px black solid;
+}
+.firstname {
+  font-size: 6vw;
+  margin: 15vw 15vw;
+}
+.lastname {
+  font-size: 6vw;
+  margin-left: 20vw;
+  margin-top: 2vw;
+}
+.description {
+  font-size: 2vw;
+  top: 30%;
+  margin-left: 30%;
+}
+img {
+  height: 60vw;
+  width: 60vw;
+}
+
+.textbox {
+  width: 40%;
+  font-size: 1.8vw;
+  position: relative;
+  left: 55vw;
+  top: 5px;
+}
+@media screen and (max-width: 600px) {
+  .firstname,
+  .lastname {
+    font-size: 9vw;
+  }
+  .top {
+    margin-top: 250px;
+  }
+  .textbox {
+    font-size: 10px;
+    width: 100%;
+    bottom: 600px;
+  }
+}
