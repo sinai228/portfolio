@@ -55,9 +55,20 @@ footer {
   color: white;
 }
 
-footer a {
-  color: white;
+.container {
+  padding:0.01em 16px
 }
+
+.padding-64 {
+  padding-top:64px!important;
+  padding-bottom:64px!important
+}
+
+.center 
+{text-align:center!important}
+
+.xlarge 
+{font-size:24px!important}
 
 
 @media screen and (max-width: 600px) {
