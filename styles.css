@@ -2594,7 +2594,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 /*=======================================================================
-	Project zoom CSS
+     Image zoom CSS
 =======================================================================*/
 /* Colorize-zoom Container */
 .img-zoom-colorize img {
@@ -2606,4 +2606,17 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .img-zoom-colorize:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
+}
+
+/* Blur-zoom Container */
+.img-zoom-blur img {
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.2);
+}
+
+/* The Transformation */
+.img-zoom-blur:hover img {
+  filter: blur(0);
+  transform: scale(1);
 }
