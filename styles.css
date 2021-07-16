@@ -2592,3 +2592,18 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     display: block;
   }
 }
+
+/*=======================================================================
+	Project zoom CSS
+=======================================================================*/
+/* Colorize-zoom Container */
+.img-zoom-colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-zoom-colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
