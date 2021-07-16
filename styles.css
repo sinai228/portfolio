@@ -98,6 +98,12 @@ img {
   height: 50vh;
 }
 
+.full_img {
+  object-fit: cover;
+  object-position: middle;
+  height: 100%;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
