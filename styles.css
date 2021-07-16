@@ -831,14 +831,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   width: auto;
   border: none;
   outline: none;
-  display: block;
 }
-
-.bar {
-  width: 100%;
-  overflow: hidden;
-}
-
 
 .bar a {
   float: left;
@@ -853,12 +846,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .bar .icon {
   display: none;
 }
-
-.bar .icon {
-  display: none;
-}
-
-
 
 .bar .dropdown-hover, .bar .dropdown-click {
   position: static;
