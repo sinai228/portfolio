@@ -2304,3 +2304,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .border-pale-blue, .hover-border-pale-blue:hover {
   border-color: #e7ffff!important;
 }
+
+/*=======================================================================
+	Responsive CSS
+=======================================================================*/
