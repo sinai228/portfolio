@@ -834,6 +834,20 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   display: block;
 }
 
+.bar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .bar a {
+    display: none;
+  }
+  .bar a.icon {
+    float: left;
+    display: block;
+  }
+}
+
 .bar .dropdown-hover, .bar .dropdown-click {
   position: static;
   float: left;
