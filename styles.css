@@ -873,6 +873,12 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   width: 100%;
 }
 
+.blur {
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
 .responsive {
   overflow-x: auto;
 }
