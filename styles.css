@@ -796,6 +796,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   width: 100%;
   overflow: hidden;
   position: fixed;
+  height: 15vw
 }
 
 .center .bar {
