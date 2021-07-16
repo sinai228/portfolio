@@ -2597,26 +2597,26 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
      Image zoom CSS
 =======================================================================*/
 /* Colorize-zoom Container */
-.img-zoom-colorize img {
+.img-zoom-colorize {
   transition: transform .5s, filter 1.5s ease-in-out;
   filter: grayscale(100%);
 }
 
 /* The Transformation */
-.img-zoom-colorize:hover img {
+.img-zoom-colorize:hover {
   filter: grayscale(0);
   transform: scale(1.1);
 }
 
 /* Blur-zoom Container */
-.img-zoom-blur img {
+.img-zoom-blur {
   transition: transform 1s, filter 2s ease-in-out;
   filter: blur(2px);
   transform: scale(1.2);
 }
 
 /* The Transformation */
-.img-zoom-blur:hover img {
+.img-zoom-blur:hover {
   filter: blur(0);
   transform: scale(1);
 }
