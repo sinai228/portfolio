@@ -2569,7 +2569,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     display: none;
   }
   .bar a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
