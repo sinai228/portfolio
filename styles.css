@@ -101,7 +101,7 @@ img {
 .full_img {
   object-fit: cover;
   object-position: middle;
-  height: 100vh;
+  height: 80vh;
 }
 
 svg:not(:root) {
