@@ -834,6 +834,26 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   display: block;
 }
 
+.bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.bar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bar .icon {
+  display: none;
+}
+
 .bar .icon {
   display: none;
 }
