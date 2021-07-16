@@ -2565,9 +2565,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 
 
 @media screen and (max-width: 600px) {
-  .bar a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
   .bar a.icon {
     float: left;
     display: block;
