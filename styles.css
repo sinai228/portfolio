@@ -837,11 +837,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   display: block;
 }
 
-.bar i {
-  float: right;
-  padding: 3px;
-}
-
 .bar .icon {
   display: none;
 }
