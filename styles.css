@@ -2620,3 +2620,16 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   filter: blur(0);
   transform: scale(1);
 }
+
+/* Brightness-zoom Container */
+.img-zoom-brightness img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+/* The Transformation */
+.img-zoom-brightness:hover img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
