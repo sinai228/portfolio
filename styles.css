@@ -834,8 +834,12 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 .bar a {
-  float: left;
   display: block;
+}
+
+.bar i {
+  float: right;
+  padding: 3px;
 }
 
 .bar .icon {
