@@ -2604,14 +2604,20 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 .prj_overlay {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
-  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  opacity: 0;
+  background-color: transparent;
   transition: background 0.5s ease;
 }
 
 .prj:hover .prj_overlay {
-  display: block;
+  opacity: 1;
   background: rgba(0, 0, 0, .3);
 }
 
@@ -2634,13 +2640,15 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 .prj_icon {
-  opacity: 0;
+  font-size: 50px;
   transition: opacity .35s ease;
 }
 
+/*
 .prj_img:hover .prj_icon {
   opacity: 1;
 }
+*/
 
 .prj_icon a:hover{
     /* color: #333333; */
