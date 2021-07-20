@@ -2177,13 +2177,14 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 
 .prj {
    background-color: black;
+	transition: opacity .5s ease;
+
 }
 
 .prj:hover img{
    opacity:0.4;
-   transition: opacity .5s ease;
-
 }
+
 .prj_icon {
   position: relative;
   font-size: 50px;
