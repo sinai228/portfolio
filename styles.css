@@ -2233,12 +2233,13 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 .prj_button a {
-  width: 200px;
-  padding: 12px 48px;
-  text-align: center;
+  padding: 15px;
   color: white;
-  border: solid 2px white;
-  z-index: 1;
+    display: inline-block;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: .5s;  z-index: 1;
 }
 
 .prj_container:hover .prj_button {
