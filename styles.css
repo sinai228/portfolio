@@ -2175,39 +2175,9 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     Project showcase cards
 =======================================================================*/
 
-.prj {
-   background-color: black;
-	transition: opacity .5s ease;
-
-}
-
-.prj:hover img{
-   opacity:0.4;
-}
-
-.prj_icon {
+.prj_container {
   position: relative;
-  font-size: 50px;
-  display: span;
-  opacity: 0;
-  transition: opacity .35s ease;
-}
-
-.prj_icon a {
-  width: 200px;
-  padding: 10px;
-  color: white;
-}
-
-.prj:hover .prj_icon {
-  opacity: 1;
-}
-
-
-/*
-.prj {
-  position: relative;
- margin-top: 50px;
+  margin-top: 50px;
   width: 500px;
   height: 300px;
 }
@@ -2222,64 +2192,19 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: background 0.5s ease;
 }
 
-.prj:hover .prj_overlay {
+.prj_container:hover .prj_overlay {
   display: block;
   background: rgba(0, 0, 0, .3);
 }
 
-
-.prj_icon {
-  position: relative;
-  display: span;
-  opacity: 0;
-  transition: opacity .35s ease;
-}
-
-.prj_icon a {
-  width: 200px;
-  padding: 100px;
-  color: white;
-}
-
-.prj:hover .prj_icon {
-  opacity: 1;
-}
-
-
-/*
-.prj {
-  width: inherit;
-  height: inherit;
-}
-
-.prj_overlay {
+.prj_img {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  width: 500px;
+  height: 300px;
   left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  transition: background 0.5s ease;
 }
 
-.prj:hover .prj_overlay {
-  display: block;
-  background: rgba(0, 0, 0, .3);
-}
-
-.prj_icon {
-  font-size: 50px;
-  opacity: 0;
-  transition: opacity .35s ease;
-}
-
-.prj:hover .prj_icon {
-  opacity: 1;
-}
-
-.prj_title {
+.title {
   position: absolute;
   width: 500px;
   left: 0;
@@ -2293,52 +2218,29 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: top .5s ease;
 }
 
-.prj:hover .prj_title {
+.prj_container:hover .prj_title {
   top: 90px;
 }
-.prj_icon a:hover{
-    color: #333;
-    background: transparent;
-    border-color:#fff;
-*/
 
-/*=======================================================================
-     Image zoom CSS
-=======================================================================*/
-/* Colorize-zoom Container */
-.img-zoom-colorize img {
-  transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
+.prj_button {
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
 }
 
-/* The Transformation */
-.img-zoom-colorize:hover img{
-  filter: grayscale(0);
-  transform: scale(1.1);
+.prj_button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
 }
 
-/* Blur-zoom Container */
-.img-zoom-blur img{
-  transition: transform 1s, filter 2s ease-in-out;
-  filter: blur(2px);
-  transform: scale(1.2);
-}
-
-/* The Transformation */
-.img-zoom-blur:hover img{
-  filter: blur(0);
-  transform: scale(1);
-}
-
-/* Brightness-zoom Container */
-.img-zoom-brightness img {
-  transition: transform 2s, filter 1.5s ease-in-out;
-  transform-origin: center center;
-  filter: brightness(50%);
-}
-
-/* The Transformation */
-.img-zoom-brightness:hover img {
-  filter: brightness(100%);
-  transform: scale(1.2);
+.prj_container:hover .prj_button {
+  opacity: 1;
 }
