@@ -2642,18 +2642,30 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: opacity .35s ease;
 }
 
-.prj_icon a {
-  width: 200px;
-  padding: 12px 48px;
-  text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
-}
-
-.prj_img:hover .img_button {
+.prj_img:hover .prj_icon {
   opacity: 1;
 }
+
+/* Link Icons */
+.prj_icon a {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+    padding: 0.2em 0.5em;
+    margin-right: .5em;
+    margin-left: .5em;
+    color: #fff;
+}
+
+.prj_icon a:hover{
+    /* color: #333333; */
+    /* background: #fff; */
+    color: #333;
+    background: #fff;
+    border-color:#fff;
 
 /*=======================================================================
      Image zoom CSS
