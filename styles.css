@@ -2204,7 +2204,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   left: 0;
 }
 
-.title {
+.prj_title {
   position: absolute;
   width: 500px;
   left: 0;
