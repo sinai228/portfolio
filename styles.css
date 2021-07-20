@@ -2600,8 +2600,8 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .prj {
   position: relative;
   margin-top: 50px;
-  width: 600px;
-  height: 400px;
+  width: inherit;
+  height: inherit;
 }
 
 .prj_overlay {
@@ -2617,13 +2617,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .prj:hover .prj_overlay {
   display: block;
   background: rgba(0, 0, 0, .3);
-}
-
-.prj img {
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  left: 0;
 }
 
 .prj_title {
