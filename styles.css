@@ -2614,7 +2614,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: background 0.5s ease;
 }
 
-.prj:hover .overlay {
+.prj:hover .prj_overlay {
   display: block;
   background: rgba(0, 0, 0, .3);
 }
@@ -2640,7 +2640,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: top .5s ease;
 }
 
-.prj:hover .title {
+.prj:hover .prj_title {
   top: 90px;
 }
 
@@ -2663,7 +2663,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   z-index: 1;
 }
 
-.prj_img:hover .button {
+.prj_img:hover .img_button {
   opacity: 1;
 }
 
