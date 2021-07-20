@@ -2654,7 +2654,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: opacity .35s ease;
 }
 
-.prj_icon i {
+.prj_icon a {
   width: 200px;
   padding: 12px 48px;
   text-align: center;
