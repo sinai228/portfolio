@@ -2611,13 +2611,12 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   background-color: transparent;
   transition: background 0.5s ease;
 }
 
 .prj:hover .prj_overlay {
-  opacity: 1;
+  display: block;
   background: rgba(0, 0, 0, .3);
 }
 
@@ -2644,11 +2643,9 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   transition: opacity .35s ease;
 }
 
-/*
-.prj_img:hover .prj_icon {
+.prj:hover .prj_icon {
   opacity: 1;
 }
-*/
 
 .prj_icon a:hover{
     /* color: #333333; */
