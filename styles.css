@@ -2604,7 +2604,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   height: 300px;
 }
 
-.overlay {
+.prj_overlay {
   position: absolute;
   top: 0;
   left: 0;
