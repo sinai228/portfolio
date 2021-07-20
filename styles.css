@@ -2598,7 +2598,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     Project showcase cards
 =======================================================================*/
 .prj {
-  position: relative;
   width: inherit;
   height: inherit;
 }
@@ -2620,6 +2619,16 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   background: rgba(0, 0, 0, .3);
 }
 
+.prj_icon {
+  font-size: 50px;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.prj:hover .prj_icon {
+  opacity: 1;
+}
+/*
 .prj_title {
   position: absolute;
   width: 500px;
@@ -2637,22 +2646,11 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .prj:hover .prj_title {
   top: 90px;
 }
-
-.prj_icon {
-  font-size: 50px;
-  transition: opacity .35s ease;
-}
-
-.prj:hover .prj_icon {
-  opacity: 1;
-}
-
 .prj_icon a:hover{
-    /* color: #333333; */
-    /* background: #fff; */
     color: #333;
     background: transparent;
     border-color:#fff;
+*/
 
 /*=======================================================================
      Image zoom CSS
