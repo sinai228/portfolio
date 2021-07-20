@@ -94,7 +94,7 @@ img {
 .slide_img {
   object-fit: cover;
   object-position: middle;
-  height: 50vh;
+  height: 80vh;
 }
 
 .full_img {
