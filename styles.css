@@ -2597,6 +2597,50 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 /*=======================================================================
     Project showcase cards
 =======================================================================*/
+
+
+.prj {
+  position: relative;
+ margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.prj_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.prj:hover .prj_overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+
+.prj_icon {
+  position: relative;
+  display: span;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.prj_icon a {
+  width: 200px;
+  padding: 100px;
+  color: white;
+}
+
+.prj:hover .prj_icon {
+  opacity: 1;
+}
+
+
+/*
 .prj {
   width: inherit;
   height: inherit;
@@ -2628,7 +2672,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .prj:hover .prj_icon {
   opacity: 1;
 }
-/*
+
 .prj_title {
   position: absolute;
   width: 500px;
