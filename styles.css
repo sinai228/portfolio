@@ -1246,22 +1246,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   border-radius: 4px!important;
 }
 
-.round-large {
-  border-radius: 8px!important;
-}
-
-.round-xlarge {
-  border-radius: 16px!important;
-}
-
-.round-xxlarge {
-  border-radius: 32px!important;
-}
-
-.round-jumbo {
-  border-radius: 64px!important;
-}
-
 .border-0 {
   border: 0!important;
 }
@@ -2105,101 +2089,10 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   background-color: transparent!important;
 }
 
-.hover-none:hover {
-  box-shadow: none!important;
-  background-color: transparent!important;
-}
-
-/* Colors */
-
-.amber, .hover-amber:hover {
-  color: #000!important;
-  background-color: #ffc107!important;
-}
-
-.aqua, .hover-aqua:hover {
-  color: #000!important;
-  background-color: #00ffff!important;
-}
-
-.blue, .hover-blue:hover {
-  color: #fff!important;
-  background-color: #2196F3!important;
-}
-
-.light-blue, .hover-light-blue:hover {
-  color: #000!important;
-  background-color: #87CEEB!important;
-}
-
-.brown, .hover-brown:hover {
-  color: #fff!important;
-  background-color: #795548!important;
-}
-
-.cyan, .hover-cyan:hover {
-  color: #000!important;
-  background-color: #00bcd4!important;
-}
 
 .blue-grey, .hover-blue-grey:hover, .blue-gray, .hover-blue-gray:hover {
   color: #fff!important;
   background-color: #607d8b!important;
-}
-
-.green, .hover-green:hover {
-  color: #fff!important;
-  background-color: #4CAF50!important;
-}
-
-.light-green, .hover-light-green:hover {
-  color: #000!important;
-  background-color: #8bc34a!important;
-}
-
-.indigo, .hover-indigo:hover {
-  color: #fff!important;
-  background-color: #3f51b5!important;
-}
-
-.khaki, .hover-khaki:hover {
-  color: #000!important;
-  background-color: #f0e68c!important;
-}
-
-.lime, .hover-lime:hover {
-  color: #000!important;
-  background-color: #cddc39!important;
-}
-
-.orange, .hover-orange:hover {
-  color: #000!important;
-  background-color: #ff9800!important;
-}
-
-.deep-orange, .hover-deep-orange:hover {
-  color: #fff!important;
-  background-color: #ff5722!important;
-}
-
-.pink, .hover-pink:hover {
-  color: #fff!important;
-  background-color: #e91e63!important;
-}
-
-.purple, .hover-purple:hover {
-  color: #fff!important;
-  background-color: #9c27b0!important;
-}
-
-.deep-purple, .hover-deep-purple:hover {
-  color: #fff!important;
-  background-color: #673ab7!important;
-}
-
-.red, .hover-red:hover {
-  color: #fff!important;
-  background-color: #f44336!important;
 }
 
 .sand, .hover-sand:hover {
@@ -2242,109 +2135,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   background-color: #616161!important;
 }
 
-.pale-red, .hover-pale-red:hover {
-  color: #000!important;
-  background-color: #ffdddd!important;
-}
-
-.pale-green, .hover-pale-green:hover {
-  color: #000!important;
-  background-color: #ddffdd!important;
-}
-
-.pale-yellow, .hover-pale-yellow:hover {
-  color: #000!important;
-  background-color: #ffffcc!important;
-}
-
-.pale-blue, .hover-pale-blue:hover {
-  color: #000!important;
-  background-color: #ddffff!important;
-}
-
-.text-amber, .hover-text-amber:hover {
-  color: #ffc107!important;
-}
-
-.text-aqua, .hover-text-aqua:hover {
-  color: #00ffff!important;
-}
-
-.text-blue, .hover-text-blue:hover {
-  color: #2196F3!important;
-}
-
-.text-light-blue, .hover-text-light-blue:hover {
-  color: #87CEEB!important;
-}
-
-.text-brown, .hover-text-brown:hover {
-  color: #795548!important;
-}
-
-.text-cyan, .hover-text-cyan:hover {
-  color: #00bcd4!important;
-}
-
-.text-blue-grey, .hover-text-blue-grey:hover, .text-blue-gray, .hover-text-blue-gray:hover {
-  color: #607d8b!important;
-}
-
-.text-green, .hover-text-green:hover {
-  color: #4CAF50!important;
-}
-
-.text-light-green, .hover-text-light-green:hover {
-  color: #8bc34a!important;
-}
-
-.text-indigo, .hover-text-indigo:hover {
-  color: #3f51b5!important;
-}
-
-.text-khaki, .hover-text-khaki:hover {
-  color: #b4aa50!important;
-}
-
-.text-lime, .hover-text-lime:hover {
-  color: #cddc39!important;
-}
-
-.text-orange, .hover-text-orange:hover {
-  color: #ff9800!important;
-}
-
-.text-deep-orange, .hover-text-deep-orange:hover {
-  color: #ff5722!important;
-}
-
-.text-pink, .hover-text-pink:hover {
-  color: #e91e63!important;
-}
-
-.text-purple, .hover-text-purple:hover {
-  color: #9c27b0!important;
-}
-
-.text-deep-purple, .hover-text-deep-purple:hover {
-  color: #673ab7!important;
-}
-
-.text-red, .hover-text-red:hover {
-  color: #f44336!important;
-}
-
-.text-sand, .hover-text-sand:hover {
-  color: #fdf5e6!important;
-}
-
-.text-teal, .hover-text-teal:hover {
-  color: #009688!important;
-}
-
-.text-yellow, .hover-text-yellow:hover {
-  color: #d2be0e!important;
-}
 
 .text-white, .hover-text-white:hover {
   color: #fff!important;
