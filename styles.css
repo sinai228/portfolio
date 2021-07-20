@@ -2598,16 +2598,11 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     Project showcase cards
 =======================================================================*/
 .prj {
-  position: relative;
-  margin-top: 50px;
   width: inherit;
   height: inherit;
 }
 
 .prj_overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0);
