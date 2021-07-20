@@ -2599,9 +2599,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 =======================================================================*/
 .prj {
   position: relative;
-  margin-top: 50px;
-  width: 500px;
-  height: 300px;
 }
 
 .prj_overlay {
