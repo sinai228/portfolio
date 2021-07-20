@@ -2598,6 +2598,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
     Project showcase cards
 =======================================================================*/
 .prj {
+  position: relative;
   width: inherit;
   height: inherit;
 }
@@ -2633,31 +2634,12 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 }
 
 .prj_icon {
-  position: absolute;
-  width: 500px;
-  left:0;
-  top: 180px;
-  text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
 }
 
 .prj_img:hover .prj_icon {
   opacity: 1;
-}
-
-/* Link Icons */
-.prj_icon a {
-    list-style: none;
-    display: inline-block;
-    font-size: 1.5em;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    transition: .5s;
-    padding: 0.2em 0.5em;
-    margin-right: .5em;
-    margin-left: .5em;
-    color: #fff;
 }
 
 .prj_icon a:hover{
