@@ -2582,7 +2582,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 	Responsive CSS
 =======================================================================*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .bar a {
     display: none;
   }
