@@ -561,150 +561,10 @@ ul.ul li:last-child {
   border-bottom: none;
 }
 
-.tooltip, .display-container {
-  position: relative;
-}
-
-.tooltip .text {
-  display: none;
-}
-
-.tooltip:hover .text {
-  display: inline-block;
-}
-
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navbar li {
-  float: left;
-}
-
-.navbar li a, .navitem, .navbar li .btn, .navbar li .input {
-  display: block;
-  padding: 8px 16px;
-}
-
-.navbar li .btn, .navbar li .input {
-  border: none;
-  outline: none;
-  width: 100%;
-}
-
-.navbar li a:hover {
-  color: #000;
-  background-color: #ccc;
-}
-
-.navbar .dropdown-hover, .navbar .dropdown-click {
-  position: static;
-}
-
-.navbar .dropdown-hover:hover, .navbar .dropdown-hover:first-child, .navbar .dropdown-click:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
-.navbar a, .topnav a, .sidenav a, .dropdown-content a, .accordion-content a, .dropnav a, .navblock a {
-  text-decoration: none!important;
-}
-
-.navbar .opennav.right {
-  float: right!important;
-}
-
-.topnav {
-  padding: 8px 8px;
-}
-
-.navblock .dropdown-hover:hover, .navblock .dropdown-hover:first-child, .navblock .dropdown-click:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
-.navblock .dropdown-hover, .navblock .dropdown-click {
-  width: 100%;
-}
-
-.navblock .dropdown-hover .dropdown-content, .navblock .dropdown-click .dropdown-content {
-  min-width: 100%;
-}
-
-.topnav a {
-  padding: 0 8px;
-  border-bottom: 3px solid transparent;
-  -webkit-transition: border-bottom .25s;
-  transition: border-bottom .25s;
-}
-
-.topnav a:hover {
-  border-bottom: 3px solid #fff;
-}
-
-.topnav .dropdown-hover a {
-  border-bottom: 0;
-}
-
-.opennav, .closenav {
-  color: inherit;
-}
-
-.opennav:hover, .closenav:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
 
 .btn, .btn-floating, .dropnav a, .btn-floating-large, .btn-block, .navbar a, .navblock a, .sidenav a, .pagination li a, .hoverable tbody tr, .hoverable li, .accordion-content a, .dropdown-content a, .dropdown-click:hover, .dropdown-hover:hover, .opennav, .closenav, .closebtn, *[class*="hover-"] {
   -webkit-transition: background-color .25s, color .15s, box-shadow .25s, opacity 0.25s, filter 0.25s, border 0.15s;
   transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s;
-}
-
-.ripple:active {
-  opacity: 0.5;
-}
-
-.ripple {
-  -webkit-transition: opacity 0s;
-  transition: opacity 0s;
-}
-
-.sidenav, .sidebar {
-  height: 100%;
-  width: 200px;
-  background-color: #fff;
-  position: fixed!important;
-  z-index: 1;
-  overflow: auto;
-}
-
-.sidenav a, .navblock a {
-  padding: 4px 2px 4px 16px;
-}
-
-.sidenav a:hover, .navblock a:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
-.sidenav a, .dropnav a, .navblock a {
-  display: block;
-}
-
-.sidenav .dropdown-hover:hover, .sidenav .dropdown-hover:first-child, .sidenav .dropdown-click:hover, .dropnav a:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
-.sidenav .dropdown-hover, .sidenav .dropdown-click, .bar-block .dropdown-hover, .bar-block .dropdown-click {
-  width: 100%;
-}
-
-.sidenav .dropdown-hover .dropdown-content, .sidenav .dropdown-click .dropdown-content, .bar-block .dropdown-hover .dropdown-content, .bar-block .dropdown-click .dropdown-content {
-  min-width: 100%;
 }
 
 .bar-block .dropdown-hover .button, .bar-block .dropdown-click .button {
@@ -813,70 +673,6 @@ ul.ul li:last-child {
 
 .select option[disabled] {
   color: #009688;
-}
-
-.dropdown-click, .dropdown-hover {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dropdown-hover:hover .dropdown-content {
-  display: block;
-  z-index: 1;
-}
-
-.dropdown-hover:first-child, .dropdown-click:hover {
-  background-color: #ccc;
-  color: #000;
-}
-
-.dropdown-hover:hover>.button:first-child, .dropdown-click:hover>.button:first-child {
-  background-color: #ccc;
-  color: #000;
-}
-
-.dropdown-content {
-  cursor: auto;
-  color: #000;
-  background-color: #fff;
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  margin: 0;
-  padding: 0;
-}
-
-.dropdown-content a {
-  padding: 6px 16px;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ccc;
-}
-
-.accordion {
-  width: 100%;
-  cursor: pointer;
-}
-
-.accordion-content {
-  cursor: auto;
-  display: none;
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.accordion-content a {
-  padding: 6px 16px;
-  display: block;
-}
-
-.accordion-content a:hover {
-  background-color: #ccc;
 }
 
 .progress-container {
@@ -1592,25 +1388,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   padding-right: 16px!important;
 }
 
-.topbar {
-  border-top: 6px solid #ccc!important;
-}
 
-.bottombar {
-  border-bottom: 6px solid #ccc!important;
-}
-
-.leftbar {
-  border-left: 6px solid #ccc!important;
-}
-
-.rightbar {
-  border-right: 6px solid #ccc!important;
-}
-
-.row-padding, .row-padding>.half, .row-padding>.third, .row-padding>.twothird, .row-padding>.threequarter, .row-padding>.quarter, .row-padding>.col {
-  padding: 0 8px;
-}
 
 .salmon {
   color: rgb(216, 95, 95)
@@ -1660,55 +1438,6 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
   font-size: 16px;
 }
 
-.code {
-  line-height: 1.4;
-  width: auto;
-  background-color: #fff;
-  padding: 8px 12px;
-  border-left: 4px solid #4CAF50;
-  word-wrap: break-word;
-}
-
-.codespan {
-  color: crimson;
-  background-color: #f1f1f1;
-  padding-left: 4px;
-  padding-right: 4px;
-  font-size: 110%;
-}
-
-.example, .code {
-  margin: 20px 0;
-}
-
-.card, .card-2, .example {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)!important;
-}
-
-.card-4, .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
-}
-
-.card-8 {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
-}
-
-.card-12 {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)!important;
-}
-
-.card-16 {
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21)!important;
-}
-
-.card-24 {
-  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22)!important;
-}
-
-.animate-fading {
-  -webkit-animation: fading 10s infinite;
-  animation: fading 10s infinite;
-}
 
 /*=======================================================================
 	Resume Section
