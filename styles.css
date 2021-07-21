@@ -1621,6 +1621,7 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 .thick {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
+  font-size: 50vw;
 }
 
 .thick_font {
