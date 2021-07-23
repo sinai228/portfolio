@@ -1,4 +1,62 @@
 /*=======================================================================
+  Skills
+=======================================================================*/
+
+.section-block {
+  overflow: hidden;
+}
+
+.skills-block {
+  padding: 100px 0;
+  padding-left: 40px;
+}
+
+.skills-block .section-header {
+  margin-bottom: 80px;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.skill>h4 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  color: #B7A389;
+}
+
+.skill>.skill-bar {
+  height: 10px;
+  background: #cbcbcb;
+  width: 95%;
+}
+
+.skill>.skill-bar>.bar {
+  background: #888;
+  height: 100%;
+  width: 20px;
+  position: relative;
+}
+
+.percent {
+  position: absolute;
+  padding: 4px 7px;
+  background: #888;
+  color: black;
+  bottom: 100%;
+  right: 0;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*=======================================================================
   Hobby
 =======================================================================*/
 
@@ -9,18 +67,45 @@
   transition: all .3s ease-in-out;
 }
 
+@media screen and (max-width: 700px) {
+  .hobby .example_icon {
+    display: block;
+    padding: 0px;
+  }
+}
+
 .example_icon {
   padding: 30px;
   display: inline-block;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  transition: top .9s ease;
-  text-align: center;
+  transition: color .9s ease;
+  font-size: 70px;
+}
+
+.example_icon p {
+  font-size: 10px;
 }
 
 .example_icon:hover {
-  top: 105px;
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+  color: #B7A389;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.example_icon i:hover {
+  cursor: pointer;
+  top: 20px;
 }
 
 .extra-padding-top {
@@ -103,7 +188,9 @@
 .prj_icon:hover {
   color: rgb(92, 92, 92);
   background-color: white;
-  border: groove 3px rgb(199, 199, 199);
+  border: groove 3px rgb(164, 164, 164);
+  box-shadow: 0 0 7px #000000;
+  text-shadow: 0 0 7px #fff;
 }
 
 html {
@@ -1387,6 +1474,10 @@ input[type=checkbox].check:disabled+.validate, input[type=radio].radio:disabled+
 
 .padding-top {
   padding-top: 8px!important;
+}
+
+.margin-top-large {
+  margin-top: 64px!important;
 }
 
 .padding-bottom {
