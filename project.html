@@ -6,15 +6,16 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
-    />
+      />
+    <link rel="shortcut icon" type="image/png" href="assets/icon.ico">
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Navigation -->
     <nav class="bar white padding-large top" id="home">
-      <a href="menu.html" class="icon xlarge"
-        ><i class="fa fa-bars" aria-hidden="true"></i
-      ></a>
+      <a href="menu.html" class="icon xlarge"><i class="fa fa-bars"
+          aria-hidden="true"></i></a>
       <a href="index.html" class="button bar-item">Home</a>
       <a href="project.html" class="button bar-item active">Work</a>
       <a href="about.html" class="button bar-item">About</a>
@@ -22,41 +23,53 @@
       <a
         href="https://drive.google.com/file/d/12MT2KEi-TEYR6HOEmZskFDpqFyswgKcn/view?usp=sharing"
         target="_blank"
-        class="button bar-item"
-        >Resume</a
-      >
+        class="button bar-item">Resume</a>
       <div class="right xlarge">
-        <a class="large " href="https://www.github.com/sinai228/">
+        <a class="large" href="https://www.github.com/sinai228/">
           <i class="fa fa-github"></i></a>
-         <a class="large padding-right" href="https://www.behance.net/sinaipark">
+        <a class="large padding-right" href="https://www.behance.net/sinaipark">
           <i class="fa fa-behance-square"></i></a>
-        <a class="large padding-right" href="https://www.linkedin.com/in/sinai-park/">
+        <a class="large padding-right"
+          href="https://www.linkedin.com/in/sinai-park/">
           <i class="fa fa-linkedin"></i></a>
       </div>
     </nav>
+    <!-- Project Filter -->
+    <div class="extra-padding-top">
+      <div id='portfolio-filters'>
+        <ul>
+          <li>
+            <a href='#' data-group='all' class='active'>All</a>
+          </li>
+          <li>
+            <a href='#' data-group='web'>Web/Mobile App</a>
+          </li>
+          <li>
+            <a href='#' data-group='design'>Design</a>
+          </li>
+          <li>
+            <a href='#' data-group='photography'>Other</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Project Showcases -->
     <section
       class="row-padding center padding extra-padding-top"
-      style="background-color: lightgray"
-    >
+      style="background-color: lightgray">
       <div class="half extra-padding-top">
         <div class="prj">
           <img src="assets/chat_app.jpg" alt="" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://github.com/sinai228/cs336/tree/main/hmwk11"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://github.com/sinai228/cs336/tree/main/hmwk11">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://chatapp-893b6.web.app/"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://chatapp-893b6.web.app/">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Angular Using FireStore</p>
         <p class="tiny">
@@ -67,20 +80,15 @@
         <div class="prj">
           <img src="assets/memory.jpg" alt="Random Name" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://github.com/sinai228/cs108/tree/main/finalproject1"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://github.com/sinai228/cs108/tree/main/finalproject1">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://replit.com/@SinaiPark/Memory-game#main.py"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://replit.com/@SinaiPark/Memory-game#main.py">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>PyGame</p>
         <p class="tiny">Coded an easy-to-play memory game with Python</p>
@@ -92,22 +100,17 @@
             src="assets/freespace.jpg"
             alt="Random Name"
             style="width: 100%"
-          />
+            />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://github.com/calvin-cs262-fall2020-Freespace"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://github.com/calvin-cs262-fall2020-Freespace">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://www.youtube.com/watch?v=mXtHobKvMLs"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://www.youtube.com/watch?v=mXtHobKvMLs">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>React App</p>
         <p class="tiny">
@@ -120,25 +123,19 @@
         <p>Responsive Web</p>
         <p class="tiny">Loren Ipsum</p>
       </article> -->
-
       <article class="half padding-large">
         <div class="prj">
           <img src="assets/reeds.jpg" alt="Random Name" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://sinai228.github.io/portfolio"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://sinai228.github.io/portfolio">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://github.com/sinai228/portfolio"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://github.com/sinai228/portfolio">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Fractal Fern</p>
         <p class="tiny">
@@ -149,118 +146,98 @@
         <div class="prj">
           <img src="assets/portfol.jpg" alt="Random Name" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://sinai228.github.io/portfolio"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://sinai228.github.io/portfolio">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://github.com/sinai228/portfolio"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://github.com/sinai228/portfolio">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Portfolio</p>
         <p class="tiny">
           Hard-coded my portfolio to display my projects and personell
         </p>
       </article>
-      
-     <article class="third padding-large">
+
+      <article class="third padding-large">
         <div class="prj">
           <img src="assets/wave.png" alt="Random Name" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://sinai228.github.io/motion_wave"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://sinai228.github.io/motion_wave">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://replit.com/@SinaiPark/motionwave#index.html"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://replit.com/@SinaiPark/motionwave#index.html">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Wave in Motion</p>
         <p class="tiny">
-          Created an wave animation in Javascript to make it look like peering out a circular window by the sea
+          Created an wave animation in Javascript to make it look like peering
+          out a circular window by the sea
         </p>
       </article>
-        <article class="third padding-large">
+      <article class="third padding-large">
         <div class="prj">
-           <video autoplay loop muted playsinline>
-  <source src="movie.mp4" type="video/mp4" />
-</video>
+          <video autoplay loop muted playsinline>
+            <source src="movie.mp4" type="video/mp4" />
+          </video>
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://sinai228.github.io/motion_wave"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://github.com/sinai228/motion_wave">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://replit.com/@SinaiPark/motionwave#index.html"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://sinai228.github.io/motion_wave">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Wave in Motion</p>
         <p class="tiny">
-          Created an wave animation in Javascript to make it look like peering out a circular window by the sea
+          Created an wave animation in Javascript to make it look like peering
+          out a circular window by the sea
         </p>
       </article>
-      
-     
-      
-       <article class="third padding-large">
+
+
+
+      <article class="third padding-large">
         <div class="prj">
           <img src="assets/holy.jpg" alt="Random Name" style="width: 100%" />
           <div class="prj_overlay"></div>
-          <span class="display-middle icons"
-            ><a
+          <span class="display-middle icons"><a
               class="prj_icon padding-small circle"
-              href="https://sinai228.github.io/Holy_Grail_Layout"
-            >
-              <i class="fa fa-github"></i
-            ></a>
+              href="https://sinai228.github.io/Holy_Grail_Layout">
+              <i class="fa fa-github"></i></a>
             <span class="padding"></span>
             <a
               class="prj_icon circle padding-small"
-              href="https://sinai228.github.io/Holy_Grail_Layout/"
-            >
-              <i class="fa fa-link"></i></a
-          ></span>
+              href="https://sinai228.github.io/Holy_Grail_Layout/">
+              <i class="fa fa-link"></i></a></span>
         </div>
         <p>Holy Grail Website Layout</p>
         <p class="tiny">
           Created a basic holy grail style website prototype with html and css
         </p>
       </article>
-      
+
     </section>
-  
+
 
     <!-- Footer -->
     <footer class="container padding-64 center black xlarge">
       <a href="https://www.linkedin.com/in/sinai-park/">
-        <i class="fa fa-linkedin"></i></a
-      ><span class="padding-tiny"></span>
+        <i class="fa fa-linkedin"></i></a><span class="padding-tiny"></span>
       <a href="https://www.behance.net/sinaipark">
         <i class="fa fa-behance-square"></i></a><span class="padding-tiny"></span>
       <a href="https://www.github.com/sinai228/">
-        <i class="fa fa-github"></i
-      ></a>
+        <i class="fa fa-github"></i></a>
       <p></p>
       <a href="index.html" class="button bar-item active black small">Home</a>
       <a href="project.html" class="button bar-item black small">Work</a>
