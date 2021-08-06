@@ -1,6 +1,32 @@
 /*=======================================================================
+  image zoom colorize and other effets
+=======================================================================*/
+
+.img-zoom-colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+
+.img-zoom-colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.zoom-effect-container {
+  float: left;
+  position: relative;
+  width: 640px;
+  height: 360px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*=======================================================================
   fade in on scroll
 =======================================================================*/
+
 .nav-scrolled {
   --text: #333;
   --text-inverse: #f4f4f4;
@@ -23,10 +49,7 @@
   display: grid;
   grid-gap: 2em;
   align-items: center;
-  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
-      1em,
-      1fr
-    );
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax( 1em, 1fr);
 }
 
 .from-left {
@@ -41,17 +64,14 @@
   transform: translateX(50%);
 }
 
-.from-left,
-.from-right {
+.from-left, .from-right {
   transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
   transition: opacity 250ms ease-in, transform 400ms ease-in;
-  transition: opacity 250ms ease-in, transform 400ms ease-in,
-    -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in, -webkit-transform 400ms ease-in;
   opacity: 0;
 }
 
-.from-left.appear,
-.from-right.appear {
+.from-left.appear, .from-right.appear {
   -webkit-transform: translateX(0);
   transform: translateX(0);
   opacity: 1;
@@ -715,6 +735,11 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.center_pos {
+  top: 50%;
+  margin-left: 25%;
 }
 
 .disabled, .btn:disabled, .button:disabled, .btn-floating:disabled, .btn-floating-large:disabled {
