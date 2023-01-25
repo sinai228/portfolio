@@ -2,4 +2,4 @@
 
 This is a showcase of my projects
 
-https://sinai228.github.io/portfolio/
+https://sinai228.github.io/site/
